@@ -1,0 +1,6 @@
+framework module JKCountDownButton {
+  umbrella header "JKCountDownButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
