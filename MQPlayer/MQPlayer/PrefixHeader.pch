@@ -31,4 +31,6 @@
 #import "UIView+BorderLine.h"
 #import "UIViewController+ZacAdd.h"
 #import "Macros.h"
+#import <AFNetworking/AFNetworking.h>
+#import <SVProgressHUD/SVProgressHUD.h>
 #endif /* PrefixHeader_pch */

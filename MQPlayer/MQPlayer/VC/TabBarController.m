@@ -11,6 +11,7 @@
 #import "MyVideoTableViewController.h"
 #import "TransViewController.h"
 #import "ToolsViewController.h"
+#import "OSTransmitDataViewController.h"
 
 @interface TabBarController ()
 
@@ -76,7 +77,7 @@
     [helpVC.tabBarItem setTitleTextAttributes:attribute_selected forState:UIControlStateHighlighted];
     
     
-    TransViewController *commentVC = [TransViewController zac_initFromXIB];
+    OSTransmitDataViewController *commentVC = [OSTransmitDataViewController zac_initFromXIB];
     commentVC.title = @"电脑互传";
     commentVC.tabBarItem.image = tabbar_comment;
     commentVC.tabBarItem.selectedImage = tabbar_comment_selected;
@@ -93,7 +94,12 @@
     [accountVC.tabBarItem setTitleTextAttributes:attribute_selected forState:UIControlStateHighlighted];
     
 
-    return @[mainVC, helpVC, commentVC, accountVC];
+    return @[[self nav:mainVC], [self nav:helpVC], [self nav:commentVC], [self nav:accountVC]];
+}
+
+- (UINavigationController *)nav:(UIViewController *)vc
+{
+    return [[UINavigationController alloc] initWithRootViewController:vc];
 }
 
 @end

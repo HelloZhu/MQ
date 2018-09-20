@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2010522321510E4D00BB11D1 /* HotMovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010522121510E4D00BB11D1 /* HotMovieCell.m */; };
+		2010522421510E4D00BB11D1 /* HotMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2010522221510E4D00BB11D1 /* HotMovieCell.xib */; };
+		20105228215120F500BB11D1 /* OSTransmitDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20105226215120F400BB11D1 /* OSTransmitDataViewController.m */; };
+		20105229215120F500BB11D1 /* OSTransmitDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20105227215120F400BB11D1 /* OSTransmitDataViewController.xib */; };
+		2010522E2151213000BB11D1 /* SJXCSMIPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010522C2151213000BB11D1 /* SJXCSMIPHelper.m */; };
+		201052312151218700BB11D1 /* UIImage+XYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 201052302151218700BB11D1 /* UIImage+XYImage.m */; };
+		20105234215121C500BB11D1 /* NetworkTypeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 20105233215121C500BB11D1 /* NetworkTypeUtils.m */; };
+		201052362151276A00BB11D1 /* GCDWebServers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201052352151276A00BB11D1 /* GCDWebServers.framework */; };
+		201052382151277400BB11D1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 201052372151277400BB11D1 /* libz.tbd */; };
+		201052392151282A00BB11D1 /* GCDWebServers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201052352151276A00BB11D1 /* GCDWebServers.framework */; };
+		2010523A2151282A00BB11D1 /* GCDWebServers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 201052352151276A00BB11D1 /* GCDWebServers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2010525921512BAE00BB11D1 /* FileDownloadConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010524121512BAE00BB11D1 /* FileDownloadConst.m */; };
+		2010525A21512BAE00BB11D1 /* FileDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010524321512BAE00BB11D1 /* FileDownloader.m */; };
+		2010525B21512BAE00BB11D1 /* FileDownloaderSessionPrivateDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010524521512BAE00BB11D1 /* FileDownloaderSessionPrivateDelegate.m */; };
+		2010525C21512BAE00BB11D1 /* FileDownloadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010524721512BAE00BB11D1 /* FileDownloadOperation.m */; };
+		2010525D21512BAE00BB11D1 /* FileDownloadProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010524921512BAE00BB11D1 /* FileDownloadProgress.m */; };
+		2010525E21512BAE00BB11D1 /* OSFileDownloaderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010524C21512BAE00BB11D1 /* OSFileDownloaderDelegate.m */; };
+		2010525F21512BAE00BB11D1 /* OSFileDownloaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010524E21512BAE00BB11D1 /* OSFileDownloaderManager.m */; };
+		2010526021512BAE00BB11D1 /* OSRemoteResourceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010525021512BAE00BB11D1 /* OSRemoteResourceItem.m */; };
+		2010526121512BAE00BB11D1 /* DownloadsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010525321512BAE00BB11D1 /* DownloadsViewController.m */; };
+		2010526221512BAE00BB11D1 /* OSFileDownloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010525521512BAE00BB11D1 /* OSFileDownloadCell.m */; };
+		2010526321512BAE00BB11D1 /* DownloadsTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2010525821512BAE00BB11D1 /* DownloadsTableViewModel.m */; };
 		20114E4A2150C0A500FD13A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20114E492150C0A500FD13A4 /* AppDelegate.m */; };
 		20114E4D2150C0A500FD13A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20114E4C2150C0A500FD13A4 /* ViewController.m */; };
 		20114E502150C0A500FD13A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20114E4E2150C0A500FD13A4 /* Main.storyboard */; };
@@ -47,11 +69,62 @@
 		208B6FD82150D45400461CD5 /* UIView+BorderLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 208B6FBA2150D45400461CD5 /* UIView+BorderLine.m */; };
 		208B6FD92150D45400461CD5 /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 208B6FBC2150D45400461CD5 /* UIView+SetRect.m */; };
 		208B6FDA2150D45400461CD5 /* UIViewController+ZacAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 208B6FBE2150D45400461CD5 /* UIViewController+ZacAdd.m */; };
-		3F135EEBBE263B551E6E93F0 /* Pods_MQPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B35E5E673D2AD7ED26DA18 /* Pods_MQPlayer.framework */; };
+		E45C2CDF5F35493C07C8929F /* Pods_MQPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9357F2822A41B9879B59C3 /* Pods_MQPlayer.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2010523B2151282B00BB11D1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2010523A2151282A00BB11D1 /* GCDWebServers.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1C318F9EC8FCC1694DD49A35 /* Pods-MQPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MQPlayer/Pods-MQPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		2010522021510E4D00BB11D1 /* HotMovieCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotMovieCell.h; sourceTree = "<group>"; };
+		2010522121510E4D00BB11D1 /* HotMovieCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotMovieCell.m; sourceTree = "<group>"; };
+		2010522221510E4D00BB11D1 /* HotMovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotMovieCell.xib; sourceTree = "<group>"; };
+		20105225215120F400BB11D1 /* OSTransmitDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSTransmitDataViewController.h; sourceTree = "<group>"; };
+		20105226215120F400BB11D1 /* OSTransmitDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSTransmitDataViewController.m; sourceTree = "<group>"; };
+		20105227215120F400BB11D1 /* OSTransmitDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OSTransmitDataViewController.xib; sourceTree = "<group>"; };
+		2010522C2151213000BB11D1 /* SJXCSMIPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJXCSMIPHelper.m; sourceTree = "<group>"; };
+		2010522D2151213000BB11D1 /* SJXCSMIPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJXCSMIPHelper.h; sourceTree = "<group>"; };
+		2010522F2151218700BB11D1 /* UIImage+XYImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XYImage.h"; sourceTree = "<group>"; };
+		201052302151218700BB11D1 /* UIImage+XYImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XYImage.m"; sourceTree = "<group>"; };
+		20105232215121C400BB11D1 /* NetworkTypeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTypeUtils.h; sourceTree = "<group>"; };
+		20105233215121C500BB11D1 /* NetworkTypeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTypeUtils.m; sourceTree = "<group>"; };
+		201052352151276A00BB11D1 /* GCDWebServers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GCDWebServers.framework; sourceTree = "<group>"; };
+		201052372151277400BB11D1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2010524021512BAE00BB11D1 /* FileDownloadConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDownloadConst.h; sourceTree = "<group>"; };
+		2010524121512BAE00BB11D1 /* FileDownloadConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDownloadConst.m; sourceTree = "<group>"; };
+		2010524221512BAE00BB11D1 /* FileDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDownloader.h; sourceTree = "<group>"; };
+		2010524321512BAE00BB11D1 /* FileDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDownloader.m; sourceTree = "<group>"; };
+		2010524421512BAE00BB11D1 /* FileDownloaderSessionPrivateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDownloaderSessionPrivateDelegate.h; sourceTree = "<group>"; };
+		2010524521512BAE00BB11D1 /* FileDownloaderSessionPrivateDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDownloaderSessionPrivateDelegate.m; sourceTree = "<group>"; };
+		2010524621512BAE00BB11D1 /* FileDownloadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDownloadOperation.h; sourceTree = "<group>"; };
+		2010524721512BAE00BB11D1 /* FileDownloadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDownloadOperation.m; sourceTree = "<group>"; };
+		2010524821512BAE00BB11D1 /* FileDownloadProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDownloadProgress.h; sourceTree = "<group>"; };
+		2010524921512BAE00BB11D1 /* FileDownloadProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDownloadProgress.m; sourceTree = "<group>"; };
+		2010524A21512BAE00BB11D1 /* FileDownloadProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDownloadProtocol.h; sourceTree = "<group>"; };
+		2010524B21512BAE00BB11D1 /* OSFileDownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSFileDownloaderDelegate.h; sourceTree = "<group>"; };
+		2010524C21512BAE00BB11D1 /* OSFileDownloaderDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSFileDownloaderDelegate.m; sourceTree = "<group>"; };
+		2010524D21512BAE00BB11D1 /* OSFileDownloaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSFileDownloaderManager.h; sourceTree = "<group>"; };
+		2010524E21512BAE00BB11D1 /* OSFileDownloaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSFileDownloaderManager.m; sourceTree = "<group>"; };
+		2010524F21512BAE00BB11D1 /* OSRemoteResourceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSRemoteResourceItem.h; sourceTree = "<group>"; };
+		2010525021512BAE00BB11D1 /* OSRemoteResourceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSRemoteResourceItem.m; sourceTree = "<group>"; };
+		2010525221512BAE00BB11D1 /* DownloadsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadsViewController.h; sourceTree = "<group>"; };
+		2010525321512BAE00BB11D1 /* DownloadsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadsViewController.m; sourceTree = "<group>"; };
+		2010525421512BAE00BB11D1 /* OSFileDownloadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSFileDownloadCell.h; sourceTree = "<group>"; };
+		2010525521512BAE00BB11D1 /* OSFileDownloadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSFileDownloadCell.m; sourceTree = "<group>"; };
+		2010525721512BAE00BB11D1 /* DownloadsTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadsTableViewModel.h; sourceTree = "<group>"; };
+		2010525821512BAE00BB11D1 /* DownloadsTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadsTableViewModel.m; sourceTree = "<group>"; };
 		20114E452150C0A500FD13A4 /* MQPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20114E482150C0A500FD13A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20114E492150C0A500FD13A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -132,7 +205,7 @@
 		208B6FBE2150D45400461CD5 /* UIViewController+ZacAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZacAdd.m"; sourceTree = "<group>"; };
 		208B6FDB2150D4B800461CD5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		208B6FE42150D70400461CD5 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
-		48B35E5E673D2AD7ED26DA18 /* Pods_MQPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MQPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B9357F2822A41B9879B59C3 /* Pods_MQPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MQPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A250AFCA6C943DBC629F87DF /* Pods-MQPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-MQPlayer/Pods-MQPlayer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,13 +214,99 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F135EEBBE263B551E6E93F0 /* Pods_MQPlayer.framework in Frameworks */,
+				201052382151277400BB11D1 /* libz.tbd in Frameworks */,
+				201052392151282A00BB11D1 /* GCDWebServers.framework in Frameworks */,
+				E45C2CDF5F35493C07C8929F /* Pods_MQPlayer.framework in Frameworks */,
+				201052362151276A00BB11D1 /* GCDWebServers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2010521F21510D3E00BB11D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2010522021510E4D00BB11D1 /* HotMovieCell.h */,
+				2010522121510E4D00BB11D1 /* HotMovieCell.m */,
+				2010522221510E4D00BB11D1 /* HotMovieCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2010523C21512AA100BB11D1 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				2010522D2151213000BB11D1 /* SJXCSMIPHelper.h */,
+				2010522C2151213000BB11D1 /* SJXCSMIPHelper.m */,
+				20105232215121C400BB11D1 /* NetworkTypeUtils.h */,
+				20105233215121C500BB11D1 /* NetworkTypeUtils.m */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		2010523D21512BAE00BB11D1 /* Downloads */ = {
+			isa = PBXGroup;
+			children = (
+				2010523E21512BAE00BB11D1 /* Utils */,
+				2010525121512BAE00BB11D1 /* View */,
+				2010525621512BAE00BB11D1 /* ViewModel */,
+			);
+			path = Downloads;
+			sourceTree = "<group>";
+		};
+		2010523E21512BAE00BB11D1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2010523F21512BAE00BB11D1 /* Downloader */,
+				2010524B21512BAE00BB11D1 /* OSFileDownloaderDelegate.h */,
+				2010524C21512BAE00BB11D1 /* OSFileDownloaderDelegate.m */,
+				2010524D21512BAE00BB11D1 /* OSFileDownloaderManager.h */,
+				2010524E21512BAE00BB11D1 /* OSFileDownloaderManager.m */,
+				2010524F21512BAE00BB11D1 /* OSRemoteResourceItem.h */,
+				2010525021512BAE00BB11D1 /* OSRemoteResourceItem.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2010523F21512BAE00BB11D1 /* Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				2010524021512BAE00BB11D1 /* FileDownloadConst.h */,
+				2010524121512BAE00BB11D1 /* FileDownloadConst.m */,
+				2010524221512BAE00BB11D1 /* FileDownloader.h */,
+				2010524321512BAE00BB11D1 /* FileDownloader.m */,
+				2010524421512BAE00BB11D1 /* FileDownloaderSessionPrivateDelegate.h */,
+				2010524521512BAE00BB11D1 /* FileDownloaderSessionPrivateDelegate.m */,
+				2010524621512BAE00BB11D1 /* FileDownloadOperation.h */,
+				2010524721512BAE00BB11D1 /* FileDownloadOperation.m */,
+				2010524821512BAE00BB11D1 /* FileDownloadProgress.h */,
+				2010524921512BAE00BB11D1 /* FileDownloadProgress.m */,
+				2010524A21512BAE00BB11D1 /* FileDownloadProtocol.h */,
+			);
+			path = Downloader;
+			sourceTree = "<group>";
+		};
+		2010525121512BAE00BB11D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2010525221512BAE00BB11D1 /* DownloadsViewController.h */,
+				2010525321512BAE00BB11D1 /* DownloadsViewController.m */,
+				2010525421512BAE00BB11D1 /* OSFileDownloadCell.h */,
+				2010525521512BAE00BB11D1 /* OSFileDownloadCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2010525621512BAE00BB11D1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2010525721512BAE00BB11D1 /* DownloadsTableViewModel.h */,
+				2010525821512BAE00BB11D1 /* DownloadsTableViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		20114E3C2150C0A500FD13A4 = {
 			isa = PBXGroup;
 			children = (
@@ -169,10 +328,13 @@
 		20114E472150C0A500FD13A4 /* MQPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				201052352151276A00BB11D1 /* GCDWebServers.framework */,
 				20114E482150C0A500FD13A4 /* AppDelegate.h */,
 				20114E492150C0A500FD13A4 /* AppDelegate.m */,
 				208B6FDB2150D4B800461CD5 /* PrefixHeader.pch */,
 				208B6FE42150D70400461CD5 /* Macros.h */,
+				2010523C21512AA100BB11D1 /* tools */,
+				2010521F21510D3E00BB11D1 /* Views */,
 				208B6F832150D41100461CD5 /* category */,
 				208B6F822150D3E900461CD5 /* VC */,
 				20114E4E2150C0A500FD13A4 /* Main.storyboard */,
@@ -200,6 +362,10 @@
 				208B6F792150D0EE00461CD5 /* TransViewController.h */,
 				208B6F7A2150D0EE00461CD5 /* TransViewController.m */,
 				208B6F7B2150D0EE00461CD5 /* TransViewController.xib */,
+				20105225215120F400BB11D1 /* OSTransmitDataViewController.h */,
+				20105226215120F400BB11D1 /* OSTransmitDataViewController.m */,
+				20105227215120F400BB11D1 /* OSTransmitDataViewController.xib */,
+				2010523D21512BAE00BB11D1 /* Downloads */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -207,6 +373,8 @@
 		208B6F832150D41100461CD5 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				2010522F2151218700BB11D1 /* UIImage+XYImage.h */,
+				201052302151218700BB11D1 /* UIImage+XYImage.m */,
 				208B6F842150D45400461CD5 /* Category */,
 			);
 			path = category;
@@ -296,7 +464,8 @@
 		CDF97D6F520D60255C1C17CF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				48B35E5E673D2AD7ED26DA18 /* Pods_MQPlayer.framework */,
+				201052372151277400BB11D1 /* libz.tbd */,
+				3B9357F2822A41B9879B59C3 /* Pods_MQPlayer.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -312,7 +481,8 @@
 				20114E412150C0A500FD13A4 /* Sources */,
 				20114E422150C0A500FD13A4 /* Frameworks */,
 				20114E432150C0A500FD13A4 /* Resources */,
-				EB5224F280BF68CECA37A101 /* [CP] Embed Pods Frameworks */,
+				D734AA8989669AE4BF4F02AD /* [CP] Embed Pods Frameworks */,
+				2010523B2151282B00BB11D1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -360,9 +530,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20105229215120F500BB11D1 /* OSTransmitDataViewController.xib in Resources */,
 				20114E552150C0B400FD13A4 /* LaunchScreen.storyboard in Resources */,
 				20114E522150C0B400FD13A4 /* Assets.xcassets in Resources */,
 				20114E502150C0A500FD13A4 /* Main.storyboard in Resources */,
+				2010522421510E4D00BB11D1 /* HotMovieCell.xib in Resources */,
 				208B6F7D2150D0EE00461CD5 /* TransViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -388,13 +560,14 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EB5224F280BF68CECA37A101 /* [CP] Embed Pods Frameworks */ = {
+		D734AA8989669AE4BF4F02AD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MQPlayer/Pods-MQPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/JKCountDownButton/JKCountDownButton.framework",
@@ -409,6 +582,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JKCountDownButton.framework",
@@ -433,6 +607,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2010526021512BAE00BB11D1 /* OSRemoteResourceItem.m in Sources */,
 				208B6FD22150D45400461CD5 /* UITextField+BankCardFormat.m in Sources */,
 				208B6FD02150D45400461CD5 /* UIImage+Size.m in Sources */,
 				208B6FC82150D45400461CD5 /* NSMutableDictionary+Safe.m in Sources */,
@@ -440,34 +615,49 @@
 				20114E4D2150C0A500FD13A4 /* ViewController.m in Sources */,
 				208B6FCD2150D45400461CD5 /* UIButton+JKImagePosition.m in Sources */,
 				208B6FC02150D45400461CD5 /* NSDate+Interval.m in Sources */,
+				2010526221512BAE00BB11D1 /* OSFileDownloadCell.m in Sources */,
+				2010526121512BAE00BB11D1 /* DownloadsViewController.m in Sources */,
 				208B6FCE2150D45400461CD5 /* UIColor+JKHEX.m in Sources */,
 				20114E642150C31400FD13A4 /* TabBarController.m in Sources */,
 				208B6FCA2150D45400461CD5 /* NSObject+ImpChangeTool.m in Sources */,
 				208B6FD52150D45400461CD5 /* UITextField+trimWhiteSpace.m in Sources */,
 				20114E582150C0B400FD13A4 /* main.m in Sources */,
+				2010525D21512BAE00BB11D1 /* FileDownloadProgress.m in Sources */,
 				208B6F752150D05F00461CD5 /* MyVideoTableViewController.m in Sources */,
 				208B6FD92150D45400461CD5 /* UIView+SetRect.m in Sources */,
+				2010525B21512BAE00BB11D1 /* FileDownloaderSessionPrivateDelegate.m in Sources */,
 				208B6FD72150D45400461CD5 /* UIView+AnimationProperty.m in Sources */,
+				2010525921512BAE00BB11D1 /* FileDownloadConst.m in Sources */,
 				208B6FCC2150D45400461CD5 /* UIButton+Block.m in Sources */,
 				20114E4A2150C0A500FD13A4 /* AppDelegate.m in Sources */,
 				208B6FC42150D45400461CD5 /* NSString+LabelWidthAndHeight.m in Sources */,
 				208B6FCF2150D45400461CD5 /* UIImage+OriginalMode.m in Sources */,
 				208B6FD82150D45400461CD5 /* UIView+BorderLine.m in Sources */,
+				201052312151218700BB11D1 /* UIImage+XYImage.m in Sources */,
 				208B6FC12150D45400461CD5 /* NSDate+Zac_Timestamp.m in Sources */,
 				208B6FCB2150D45400461CD5 /* NSObject+Swizzling.m in Sources */,
+				2010525A21512BAE00BB11D1 /* FileDownloader.m in Sources */,
+				2010525E21512BAE00BB11D1 /* OSFileDownloaderDelegate.m in Sources */,
 				208B6F722150CFFC00461CD5 /* HotMovieViewController.m in Sources */,
 				208B6FC72150D45400461CD5 /* NSMutableArray+Safe.m in Sources */,
+				20105234215121C500BB11D1 /* NetworkTypeUtils.m in Sources */,
 				208B6FD12150D45400461CD5 /* UILabel+SizeToFit.m in Sources */,
+				2010526321512BAE00BB11D1 /* DownloadsTableViewModel.m in Sources */,
+				2010525F21512BAE00BB11D1 /* OSFileDownloaderManager.m in Sources */,
 				208B6F782150D0AC00461CD5 /* ToolsViewController.m in Sources */,
 				208B6FBF2150D45400461CD5 /* NSAttributedString+LabelWidthAndHeight.m in Sources */,
+				2010522321510E4D00BB11D1 /* HotMovieCell.m in Sources */,
 				208B6FDA2150D45400461CD5 /* UIViewController+ZacAdd.m in Sources */,
 				208B6FC52150D45400461CD5 /* NSArray+Safe.m in Sources */,
 				208B6F7C2150D0EE00461CD5 /* TransViewController.m in Sources */,
+				2010525C21512BAE00BB11D1 /* FileDownloadOperation.m in Sources */,
 				208B6FD42150D45400461CD5 /* UITextField+LimitLength.m in Sources */,
 				208B6FC32150D45400461CD5 /* NSString+JKURLEncode.m in Sources */,
 				208B6FC22150D45400461CD5 /* NSString+JKNormalRegex.m in Sources */,
 				208B6FC92150D45400461CD5 /* NSMutableString+Safe.m in Sources */,
 				208B6FC62150D45400461CD5 /* NSDictionary+Safe.m in Sources */,
+				20105228215120F500BB11D1 /* OSTransmitDataViewController.m in Sources */,
+				2010522E2151213000BB11D1 /* SJXCSMIPHelper.m in Sources */,
 				208B6FD62150D45400461CD5 /* UITextView+Placeholder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -611,6 +801,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A2W2B2GJC6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MQPlayer",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MQPlayer/PrefixHeader.pch";
 				INFOPLIST_FILE = MQPlayer/Info.plist;
@@ -632,6 +827,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A2W2B2GJC6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MQPlayer",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MQPlayer/PrefixHeader.pch";
 				INFOPLIST_FILE = MQPlayer/Info.plist;

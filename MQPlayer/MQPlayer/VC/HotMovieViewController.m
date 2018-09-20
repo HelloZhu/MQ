@@ -7,6 +7,7 @@
 //
 
 #import "HotMovieViewController.h"
+#import "HotMovieCell.h"
 
 @interface HotMovieViewController ()
 
@@ -22,9 +23,8 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
-    
+    self.tableView.rowHeight = 150;
+    [self.tableView registerNib:[UINib nibWithNibName:@"HotMovieCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"cell"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -44,7 +44,7 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    HotMovieCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     
     // Configure the cell...
     
