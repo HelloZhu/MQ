@@ -20,25 +20,20 @@ PODS:
   - IQKeyboardManager (6.1.1)
   - JKCountDownButton (1.2.0)
   - JPush-iOS-SDK (3.0.5)
+  - KRVideoPlayer (1.0.1)
   - LKDBHelper (2.5.1):
     - LKDBHelper/standard (= 2.5.1)
   - LKDBHelper/standard (2.5.1):
     - FMDB
   - Masonry (1.1.0)
   - MJRefresh (3.1.15.3)
+  - NODataPlaceholderView (1.0.5)
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
   - SVProgressHUD (2.2.5)
   - YYCache (1.0.4)
   - YYModel (1.0.4)
-  - ZFPlayer (3.1.5):
-    - ZFPlayer/Core (= 3.1.5)
-  - ZFPlayer/AVPlayer (3.1.5):
-    - ZFPlayer/Core
-  - ZFPlayer/ControlView (3.1.5):
-    - ZFPlayer/Core
-  - ZFPlayer/Core (3.1.5)
 
 DEPENDENCIES:
   - AFNetworking
@@ -46,16 +41,15 @@ DEPENDENCIES:
   - IQKeyboardManager
   - JKCountDownButton
   - JPush-iOS-SDK
+  - KRVideoPlayer
   - LKDBHelper
   - Masonry
   - MJRefresh
+  - NODataPlaceholderView (~> 1.0.2)
   - SDWebImage
   - SVProgressHUD
   - YYCache
   - YYModel (~> 1.0.4)
-  - ZFPlayer (~> 3.0)
-  - ZFPlayer/AVPlayer (~> 3.0)
-  - ZFPlayer/ControlView (~> 3.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -64,14 +58,15 @@ SPEC REPOS:
     - IQKeyboardManager
     - JKCountDownButton
     - JPush-iOS-SDK
+    - KRVideoPlayer
     - LKDBHelper
     - Masonry
     - MJRefresh
+    - NODataPlaceholderView
     - SDWebImage
     - SVProgressHUD
     - YYCache
     - YYModel
-    - ZFPlayer
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
@@ -79,15 +74,16 @@ SPEC CHECKSUMS:
   IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
   JKCountDownButton: cc72e24c8b73f232b15cc348277422b089d43bff
   JPush-iOS-SDK: f80e435b524449fd5101e247b044d4e48174ef5f
+  KRVideoPlayer: 08918da1b99cae35fd4c15b2ec2b49358d4c985f
   LKDBHelper: 9a276ba51f2e16263d46a9517e16cc9b03472664
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  NODataPlaceholderView: bc785aa56f19023d6821580453f3edfb0b76ecfb
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
-  ZFPlayer: 8273a62fcc76f451db043ce640434d5f8799c09a
 
-PODFILE CHECKSUM: 7a5cba0498b67fa89114bc9968b4a6df83c12a13
+PODFILE CHECKSUM: 4e4d9c406aa21a83c2bb01c5f85100486a5a7ecd
 
 COCOAPODS: 1.5.3

@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <UIScrollView+NoDataExtend.h>
 #import "XYTableViewModelProtocol.h"
 
 @interface OSBaseViewController : UIViewController {

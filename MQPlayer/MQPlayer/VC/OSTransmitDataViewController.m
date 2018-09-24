@@ -74,18 +74,21 @@
 #pragma mark - <GCDWebUploaderDelegate>
 - (void)webUploader:(GCDWebUploader *)uploader didUploadFileAtPath:(NSString *)path {
     [SVProgressHUD showSuccessWithStatus:[NSString stringWithFormat:@"已通过浏览器成功传输文件[%@]", path.lastPathComponent]];
+    [[NSNotificationCenter defaultCenter] postNotificationName:kTransStateChangeNotification object:nil];
 }
 
 - (void)webUploader:(GCDWebUploader *)uploader didMoveItemFromPath:(NSString *)fromPath toPath:(NSString *)toPath {
-    
+    [[NSNotificationCenter defaultCenter] postNotificationName:kTransStateChangeNotification object:nil];
 }
 
 - (void)webUploader:(GCDWebUploader *)uploader didDeleteItemAtPath:(NSString *)path {
     [SVProgressHUD showSuccessWithStatus:[NSString stringWithFormat:@"已通过浏览器成功删除文件[%@]", path.lastPathComponent]];
+    [[NSNotificationCenter defaultCenter] postNotificationName:kTransStateChangeNotification object:nil];
 }
 
 - (void)webUploader:(GCDWebUploader *)uploader didCreateDirectoryAtPath:(NSString *)path {
     [SVProgressHUD showSuccessWithStatus:[NSString stringWithFormat:@"已通过浏览器成功创建目录[%@]", path.lastPathComponent]];
+    [[NSNotificationCenter defaultCenter] postNotificationName:kTransStateChangeNotification object:nil];
 }
 
 - (GCDWebUploader *)webServer {

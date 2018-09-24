@@ -8,9 +8,10 @@
 
 #import "HotMovieViewController.h"
 #import "HotMovieCell.h"
+#import "HotModel.h"
 
 @interface HotMovieViewController ()
-
+@property (nonatomic, strong)HotModel *hotModel;
 @end
 
 @implementation HotMovieViewController
@@ -24,7 +25,22 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.tableView.rowHeight = 150;
+    self.tableView.tableFooterView = [UIView new];
     [self.tableView registerNib:[UINib nibWithNibName:@"HotMovieCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"cell"];
+    [SVProgressHUD show];
+    [[[NSURLSession sharedSession] dataTaskWithURL:[NSURL URLWithString:@"https://raw.githubusercontent.com/HelloZhu/MQ/master/subjects.json"] completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        
+        id object =[NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [SVProgressHUD dismiss];
+            HotModel *model = [HotModel yy_modelWithJSON:object];
+            self.hotModel = model;
+            [self.tableView reloadData];
+        });
+        
+    }]resume];
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,17 +51,28 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 10;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
+    return self.hotModel.subjects.count;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    subjects *object = self.hotModel.subjects[indexPath.row];
     HotMovieCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    [cell.movieImage sd_setImageWithURL:[NSURL URLWithString:object.pic.normal]];
+    cell.name.text = object.title;
+    cell.score.text = [NSString stringWithFormat:@"%@分",object.rating.value.stringValue];
     
+    cell.derector.text = [NSString stringWithFormat:@"导演：%@",object.directors[0][@"name"]];
+    NSMutableString *desc = [[NSMutableString alloc] initWithString:@"主演："];
+    [object.actors enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSDictionary *dic = obj;
+        [desc appendFormat:@".%@",dic[@"name"]];
+    }];
+    cell.desc.text = desc;
     // Configure the cell...
     
     return cell;

@@ -8,6 +8,7 @@
 
 #import "OSRemoteResourceItem.h"
 #import "OSFileDownloaderConfiguration.h"
+#import "NSString+OSFile.h"
 
 @implementation OSRemoteResourceItem
 

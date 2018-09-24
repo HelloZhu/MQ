@@ -1,0 +1,6 @@
+framework module NODataPlaceholderView {
+  umbrella header "NODataPlaceholderView-umbrella.h"
+
+  export *
+  module * { export * }
+}

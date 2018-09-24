@@ -94,7 +94,7 @@
     [accountVC.tabBarItem setTitleTextAttributes:attribute_selected forState:UIControlStateHighlighted];
     
 
-    return @[[self nav:mainVC], [self nav:helpVC], [self nav:commentVC], [self nav:accountVC]];
+    return @[[self nav:mainVC], [self nav:helpVC], [self nav:commentVC]];
 }
 
 - (UINavigationController *)nav:(UIViewController *)vc
