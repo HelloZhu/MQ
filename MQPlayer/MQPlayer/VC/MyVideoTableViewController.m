@@ -8,7 +8,6 @@
 
 #import "MyVideoTableViewController.h"
 #import <AVFoundation/AVFoundation.h>
-#import <KRVideoPlayer/KRVideoPlayerController.h>
 #import "ZFFullScreenViewController.h"
 #import "MyVideoTableViewCell.h"
 

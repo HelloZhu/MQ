@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
- #import <GCDWebServers/GCDWebUploader.h>
+ #import "GCDWebServer.h"
+ #import "GCDWebUploader.h"
 
 @interface OSTransmitDataViewController : UIViewController
 

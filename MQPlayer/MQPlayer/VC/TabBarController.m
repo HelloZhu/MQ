@@ -9,8 +9,6 @@
 #import "TabBarController.h"
 #import "HotMovieViewController.h"
 #import "MyVideoTableViewController.h"
-#import "TransViewController.h"
-#import "ToolsViewController.h"
 #import "OSTransmitDataViewController.h"
 
 @interface TabBarController ()
@@ -85,13 +83,13 @@
     [commentVC.tabBarItem setTitleTextAttributes:attribute_selected forState:UIControlStateSelected];
     [commentVC.tabBarItem setTitleTextAttributes:attribute_selected forState:UIControlStateHighlighted];
     
-    ToolsViewController *accountVC = [[ToolsViewController alloc] initWithStyle:UITableViewStyleGrouped];
-    accountVC.title = @"下载工具";
-    accountVC.tabBarItem.image = tabbar_help;
-    accountVC.tabBarItem.selectedImage = tabbar_help_selected;
-    [accountVC.tabBarItem setTitleTextAttributes:attribute forState:UIControlStateNormal];
-    [accountVC.tabBarItem setTitleTextAttributes:attribute_selected forState:UIControlStateSelected];
-    [accountVC.tabBarItem setTitleTextAttributes:attribute_selected forState:UIControlStateHighlighted];
+//    ToolsViewController *accountVC = [[ToolsViewController alloc] initWithStyle:UITableViewStyleGrouped];
+//    accountVC.title = @"下载工具";
+//    accountVC.tabBarItem.image = tabbar_help;
+//    accountVC.tabBarItem.selectedImage = tabbar_help_selected;
+//    [accountVC.tabBarItem setTitleTextAttributes:attribute forState:UIControlStateNormal];
+//    [accountVC.tabBarItem setTitleTextAttributes:attribute_selected forState:UIControlStateSelected];
+//    [accountVC.tabBarItem setTitleTextAttributes:attribute_selected forState:UIControlStateHighlighted];
     
 
     return @[[self nav:mainVC], [self nav:helpVC], [self nav:commentVC]];

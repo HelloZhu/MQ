@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "963D058DFAA0F4A6B093F2FD96F4C49E"
+               BlueprintIdentifier = "99F42363E056094A9B1860C49B8ED031"
                BuildableName = "Pods_MQPlayer.framework"
                BlueprintName = "Pods-MQPlayer"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "963D058DFAA0F4A6B093F2FD96F4C49E"
+            BlueprintIdentifier = "99F42363E056094A9B1860C49B8ED031"
             BuildableName = "Pods_MQPlayer.framework"
             BlueprintName = "Pods-MQPlayer"
             ReferencedContainer = "container:Pods.xcodeproj">

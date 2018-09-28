@@ -11,23 +11,14 @@
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
-#import "NSDate+Interval.h"
-#import "NSString+JKURLEncode.h"
 #import "UIImage+OriginalMode.h"
 #import "UIImage+Size.h"
-#import "UITextField+BankCardFormat.h"
-#import "UITextField+trimWhiteSpace.h"
 #import "UIView+SetRect.h"
 #import "UIColor+JKHEX.h"
-#import "UITextField+JKBlocks.h"
 #import <YYModel/YYModel.h>
 ///正则验证
-#import "NSString+JKNormalRegex.h"
-#import "UITextField+LimitLength.h"
 #import "UIButton+JKImagePosition.h"
-#import "UITextView+Placeholder.h"
 #import "SafeObject.h"
-#import "NSString+LabelWidthAndHeight.h"
 #import "UIButton+Block.h"
 #import "UIView+BorderLine.h"
 #import "UIViewController+ZacAdd.h"
