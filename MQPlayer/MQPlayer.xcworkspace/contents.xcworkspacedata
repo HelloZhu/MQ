@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:MQPlayer.xcodeproj">
+      location = "group:/Users/apple2/Documents/github/MQ/MQPlayer/AK88.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

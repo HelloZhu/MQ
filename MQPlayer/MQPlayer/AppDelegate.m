@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "TabBarController.h"
+#import "AK88TabBarController.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +22,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    TabBarController *tab = [[TabBarController alloc] init];
+    AK88TabBarController *tab = [[AK88TabBarController alloc] init];
     self.window.rootViewController = tab;
     [self.window makeKeyAndVisible];
     return YES;
